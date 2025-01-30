@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+    <title>tampilan</title>
+</head>
+    <div class="wrapper">
+        <nav>
+            <div class="navbar">
+                <ul class="navbar-list">
+                    <a href="">
+                        <li class="content">About</li>
+                    </a>
+                    <a href=""> 
+                        <li class="content">Resume</li>
+                    </a>
+                    <a href="">
+                        <li class="content">Portofolio</li>
+                    </a>
+                    <a href="">
+                        <li class="content">Blog</li>
+                    </a>
+                    <a href="">
+                        <li class="content">Contact</li>
+                    </a>
+                </ul>
+                <body class="jersey-15-regular">
+            </div>
+        </nav>
+    </div>
+</div>
+<marquee behavior="" direction=""><h4 class="judul">STARDAYY</h4></marquee>
+
+
+<div class="icon-list">
+    <i class="fa-brands fa-google icon"></i>
+    <i class="fa-brands fa-github icon"></i>
+</div>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Gambar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Galeri Gambar</h1>
+        <p>Selamat datang di galeri gambar kami!</p>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <div class="gallery-item" onclick="openModal('img1.jpg')">
+                <img src="img1_thumb.jpg" alt="Gambar 1">
+            </div>
+            <div class="gallery-item" onclick="openModal('img2.jpg')">
+                <img src="img2_thumb.jpg" alt="Gambar 2">
+            </div>
+            <div class="gallery-item" onclick="openModal('img3.jpg')">
+                <img src="img3_thumb.jpg" alt="Gambar 3">
+            </div>
+            <div class="gallery-item" onclick="openModal('img4.jpg')">
+                <img src="img4_thumb.jpg" alt="Gambar 4">
+            </div>
+        </section>
+    </main>
+
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Galeri Gambar. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html> 
